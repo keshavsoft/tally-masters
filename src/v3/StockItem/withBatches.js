@@ -28,7 +28,9 @@ const transformation = {
 };
 
 const startFunc = async (inCompanyName) => {
-    const fromNpm = await masters.StockItem.withBatches.all();
+    console.log("inCompanyName : ", inCompanyName);
+
+    const fromNpm = await masters.StockItem.withBatches.all(inCompanyName);
     // console.log("uuuuuuuuu : ", fromNpm?.ENVELOPE?.BODY?.DATA?.COLLECTION);
     const fromTransform = await jsonTraversal.transform(fromNpm?.ENVELOPE?.BODY?.DATA?.COLLECTION, transformation);
 
