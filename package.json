@@ -1,0 +1,36 @@
+{
+  "name": "tally-masters",
+  "version": "1.2.1",
+  "description": "Simple, clean TDL and XML extraction and manipulation tools for Tally",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "./src/index.js",
+  "types": "index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://keshavsoft.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keshavsoft/tally-masters"
+  },
+  "bugs": {
+    "url": "https://github.com/keshavsoft/tally-masters/issues"
+  },
+  "dependencies": {
+    "json-traversal": "^1.19.1",
+    "tally-xml-tdl": "^1.23.4"
+  }
+}
