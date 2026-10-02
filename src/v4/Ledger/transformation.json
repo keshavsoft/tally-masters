@@ -1,0 +1,28 @@
+{
+    "mapping": {
+        "item": {
+            "ledgers": [
+                {
+                    "list": "LEDGER",
+                    "item": {
+                        "name": "@_NAME",
+                        "regDetails": [
+                            {
+                                "list": "LEDGSTREGDETAILS.LIST",
+                                "item": [
+                                    {
+                                        "gstRegistrationType": "GSTREGISTRATIONTYPE.#text",
+                                        "applicableFrom": "APPLICABLEFROM.#text",
+                                        "state": "STATE.#text",
+                                        "placeOfSupply": "PLACEOFSUPPLY.#text",
+                                        "gstIn": "GSTIN.#text"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

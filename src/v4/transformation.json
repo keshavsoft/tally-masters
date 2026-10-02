@@ -1,0 +1,17 @@
+{
+    "transform": {
+        "UNIT": {
+            "alterKey": "Units"
+        }
+    },
+    "Units": {
+        "transform": {
+            "@_NAME": {
+                "alterKey": "Name"
+            },
+            "@_RESERVEDNAME": {
+                "alterKey": "ReserveName"
+            }
+        }
+    }
+}
