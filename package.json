@@ -1,6 +1,6 @@
 {
   "name": "tally-masters",
-  "version": "1.4.2",
+  "version": "1.5.1",
   "description": "Simple, clean TDL and XML extraction and manipulation tools for Tally",
   "type": "module",
   "main": "src/index.js",
@@ -30,8 +30,7 @@
     "url": "https://github.com/keshavsoft/tally-masters/issues"
   },
   "dependencies": {
-    "@keshavsoft/json-transformer": "^1.3.1",
-    "json-traversal": "^1.19.1",
+    "@keshavsoft/json-transformer": "^1.6.2",
     "tally-xml-tdl": "^1.23.4"
   }
 }
