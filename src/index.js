@@ -1,3 +1,3 @@
-import app from "./v7/index.js";
+import app from "./v8/index.js";
 
 export default app;

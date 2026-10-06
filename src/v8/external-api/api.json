@@ -1,0 +1,6 @@
+[
+  "app.Unit.all",
+  "app.StockItem.withBatches",
+  "app.Ledger.withGstDetails",
+  "app.vouchers.sales.simple"
+]
